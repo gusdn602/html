@@ -1,0 +1,249 @@
+body{
+	background-color: light-gray;
+}
+.emailselect{
+	font-size:10px;
+	color:gray;
+}
+
+
+
+.naver {
+	position: absolute;
+    top: 16px;
+    right: 13px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8e8e8e;
+}
+
+.telbox{
+	display: inline-block;
+    width: 100%;
+    padding: 10px 0px 10px 14px;
+    vertical-align: top;
+    height:30px;
+	border: 2px solid blue;
+	
+}
+
+
+#email{
+	display:block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+   
+    }
+.emailbox {
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    background: #fff;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#tel{
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    
+	
+}
+#id {
+	display:block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    
+    
+}
+
+#pw{
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+#pwretry{
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+#name{
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+}
+#logo {
+	width: 300px;
+	height: auto;
+}
+.master{
+	text-align: center;
+	display: inline block;
+	padding-left:30px;
+	width: 800px;
+	height: auto;
+	margin: auto;
+}
+.textbox {
+	display: inline-block;
+	
+}
+.bel{
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#yy {
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+#mm {
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    background: #fff;
+    box-sizing: border-box;
+    vertical-align: top;
+	margin-left:10px;
+}
+
+#dd{
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-left:20px;
+}
+
+#gen{
+	display: block;
+    width: 100%;
+    padding-right: 7px;
+    box-sizing: border-box;
+    height:29px;
+    border:none;
+	
+}
+
+.font {
+	display: block;
+	font-weight: bold;
+	text-align: left;
+	margin-left:10px;
+}
+
+.idbox{
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    background: #fff;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.blank{
+	margin: 9px 0px -2px;
+}
+
+.birthbox {
+	display: table-cell;
+    table-layout: fixed;
+    width: 147px;
+    vertical-align: middle;
+	
+	
+}
+.yearInput {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+}
+.bir{
+	width:310px;
+	height:30px;
+}
+#telselect {
+	width:100%;
+	height:35px;
+	margin-bottom:22px;
+	border: none;
+}
+.sin {
+	border: 1px solid blue;
+	}
+

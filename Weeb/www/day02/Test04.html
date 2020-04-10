@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<link rel="stylesheet" href="css/t04.css"/>
+<script type="text/javascript">
+
+</script>
+</head>
+<body >
+<!-- 
+		class속성
+			: 태그에 속성을 공통적으로 부여하기 위해서 부여하는 속성
+			
+			inner Style또는 outer style 형식으로 스타일을 적용할 경우에는
+			클래스에 대한 정의를 다음 형식으로 정의해주면 된다.
+			
+			형식 ] 
+				
+				.클래스이름{
+					속성이름: 속성값;
+					속성이름: 속성값;
+				}
+				
+		inner style에서 태그에 직접 스타일을 적용시키는 방법
+			태그이름{
+				속성이름: 속성값;
+			}
+		태그에 id속성을 부여해서 처리하는 방법
+			1. 태그에 id="아이디이름"
+			2. style 태그내부에
+			
+			#아이디이름{
+				속성이름: 속성값;
+				속성이름: 속성값;
+			}
+
+ -->
+	<div class="div100" style="background-color: pink;">div1</div><br><br>
+	<div class="div100 round50 color" style=" border: 2px solid coral; ">div2</div><br><br>
+	<!-- 
+		테두리의 모서리를 둥글게 처리하는 방법
+		border-radius: 사이즈;
+	 -->
+	 <img class="round50" src="../img/Java Thread.png" style = "width: 100px; height: auto; "/><br></br>
+	 <div class="iblock round50 dContainer">
+		 <div class="div100 round50 sh10 over" >
+		 	<img id="img1" src="../img/car.png"/>
+		 </div>
+	</div>
+	<!-- 
+		태그에 스타일 적용하는 방법
+			1. inline Style : 태그에 Style 속성을 기술하는 방법
+			2. inner Style	: head 태그 내부에 style 태그를 정의해서 스타일을 적용시키는 방법
+			3. outer Style	: css파일을 만들어서 정의해놓고 스타일을 적용시키는 방법
+	 --> 
+</body>
+</html>

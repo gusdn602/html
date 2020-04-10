@@ -1,0 +1,10 @@
+select {
+	display: inline-block;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+}
+
+option:checked +span{
+	color: blue;
+}

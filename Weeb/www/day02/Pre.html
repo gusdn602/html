@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>
+	body{
+		text-align: center;
+	}
+	
+	.main {
+		text-align: center; 
+		font-size: 40px;
+	}
+	.mainfr {
+		display: inline-block;
+		border: 1px solid gray;
+		box-shadow: 0 0 30px red;
+		width: 500px;
+		padding: 50px;
+		background-image: url("../img/wallpaper.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.sub {
+		display: inline-block;
+		background-color: pink;
+		text-align: center;
+		border-style: solid;
+		padding: 30px;
+		height: 120px;
+		width: 190px;
+	}
+	.btnfr {
+		margin-top: 15px;
+	}
+	.btn {
+		width: 80px;
+		height: 30px;
+	}
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+	<div class="main">
+	<h3 >로그인</h3>
+	</div>
+	
+	<div class="mainfr">
+		<div class="sub">
+			<input type="radio" values="Male" id="m" name="gen"><label for="m">남자</label>
+			<input type="radio" values="Fmale" id="f" name="gen"><label for="f">여자</label><br>
+			<div>I  D<input type="text" id="id" name="id"></div>
+			<div>P  W<input type="text" id="pw" name="pw"></div>
+		</div>
+		<div class="btnfr">
+			<input class="btn" type="button" value="Cancle" />
+			<input class="btn" type="submit" value="Login" />
+		</div>
+	</div>
+</body>
+</html>

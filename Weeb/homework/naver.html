@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>네이버:회원가입</title>
+<link rel="stylesheet" href="./css/whw.css" />
+<style>
+
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body style="background-color:#EFEFEF">
+	<div class="master">
+		<div class="logo">
+			<a href="https://www.naver.com">
+				<img id="logo" src="img/logo.PNG" />
+			</a>
+		</div>
+		<div class="textbox">
+			<label class="font">아이디</label>
+			
+			<span class="idbox">
+			<input  type="text" id="id" name="id" area-label="@naver.com">
+			<span class="naver">@naver.com</span>
+			</span>
+			
+			<label class="font">비밀번호</label>
+			<div>
+			<span class="idbox">
+			<input type="text" id="pw" name="pw">
+			</span>
+			</div>
+			
+			<label class="font">비밀번호 재확인</label>
+			<div>
+			<span class="idbox"><input class="idbox" type="text" id="pwretry" name="pwretry"></span>
+			</div><br>
+			
+			<label class="font">이름</label>
+			<div>
+			<span class="idbox"><input class="idbox" type="text" id="name" name="name"></span>
+			</div>
+			<label class="font" >생년월일</label>
+			<div>
+				<div >
+					<div class="birthbox" >
+						<span class="idbox"><input type="text" id="yy" name="yy" placeholder="년(자)" maxlength="4"></span>
+					</div>
+					<div class="birthbox" >
+					 	<select id="mm">
+					 		<option value="월">월</option>
+					 		<option value="1">1
+					 		<option value="2">2
+					 		<option value="3">3
+					 		<option value="4">4
+					 		<option value="5">5
+					 		<option value="6">6
+					 		<option value="7">7
+					 		<option value="8">8
+					 		<option value="9">9
+					 		<option value="10">10
+					 		<option value="11">11
+					 		<option value="12">12
+					 	</select>
+					</div>
+					<div class="birthbox">
+					 	<input type="text" id="dd" name="dd" placeholder="일" maxlength="3">
+					 </div>
+				</div>
+			</div>
+			<label class="font">성별</label>
+				 <div class="bel">
+				 	<select id="gen" area-label="성별">
+				 	<option vlaue="성별">성별</option>
+				 	<option vlaue="남자">남자</option>
+				 	<option vlaue="여자">여자</option>
+				 	</select>
+				 </div>
+				 <div>
+				 <label class="font" >본인확인 이메일<span class="emailselect">(선택)</span></label>
+				 </div>
+				 <div>
+				 <span class="emailbox"><input type="text" id="email" name="email" maxlenth="100"></span>
+				 </div>
+				 <div >
+				 <label class="font" style="margin-top:10px;">휴대전화</label>
+				 <div class="idbox">
+				 <select id="telselect">
+				 <option value="대한민국 +82">대한민국 +82</option>
+					 		<option value="가나 +223">가나 +223
+					 		<option value="그리스 +30"> 그리스 +30
+					 		<option value="가봉 +241">가봉 +241
+					 		<option value="가이아나 +592">가이아나 +592
+					 		<option value="감비아 +223">감비아 +220
+					 		<option value="과테말라 +502">과테말라 +502
+				 </select>
+				 </div> 
+				 	<div>
+				 	<span class="telbox">
+				 	<input type="text" id="tel" name="tel" placeholder="전화번호 입력" ><img  id="enjoong" src="img/enjoong.PNG" />
+				 	</span>
+					</div>
+					<div>
+				 	<input type="text" id="enjoy" name="enjoy" placeholder="인증번호를 입력하세요" >
+					</div>
+					<div>
+					<img id="enjoy" src="img/enjoy.PNG" />
+					</div>
+				 </div>
+		</div>
+	</div>
+</body>
+</html>
