@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<link rel="stylesheet" href="../css/w3.css"/>
+<style>
+
+</style>
+</head>
+<body>
+	<div class = "w3-col m3"><p></p></div>
+	<div class = "w3-col m6">
+		<h2 class="w3-orange w3-padding w3-card w3-center">
+			Parameter Test01
+		</h2>
+		<form method="get" action="Text04_01.html" id="frm" class="w3-col w3-card w3-padding mt10">
+			<div class="w3-col">
+				<label class="w3-col m3 rightalign" for="id"> I  D :</label>
+				<input class="w3-col m7 w3-input w3-border ml10" type="text" id="id" name="id">
+			</div>
+			<div class="w3-col mt10">
+				<label class="w3-col m3 rightalign" for="pw"> P  W :</label>
+				<input class="w3-col m7 w3-input w3-border ml10" type="password" id="pw" name="pw">
+			</div>
+		<div class="w3-col mt10">
+			<span class="w3-col w3button w3-blue w3-hover-aqua w3-center" id="btn">Login</span>
+		</div>
+	</form>
+</div>
+</body>
+<script type="text/javascript">
+	document.getElementById('btn').onclick = function(){		//btn을 클릭시 기능을 함수로 만든다.
+		var sid = document.getElementById('id').value;			//id를 value에 넘겨주는것을 sid에 담는다.
+		var spw = document.getElementbyId('ps').value;			//pw를 value에 넘겨주는것을 spw에 담는다.
+		
+		if(!sid || !spw){										//sid 또는 spw가 입력되지 않으면 alert으로 입력되지 않았다는 메세지 출력후 조건문 종료
+			alert('입력한 값이 없습니다.');
+			return
+		}
+		document.getelementById('frm').submit();				//frm을 submit으로 넘긴다.
+	}
+</script>
+</html>
