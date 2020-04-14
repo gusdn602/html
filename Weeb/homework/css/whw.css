@@ -7,7 +7,10 @@ body{
 }
 
 
-
+#login{
+	margin-top: 20px;
+	
+}
 .naver {
 	position: absolute;
     top: 16px;
@@ -76,6 +79,7 @@ body{
     box-sizing: border-box;
     
     
+    
 }
 
 #pw{
@@ -87,9 +91,9 @@ body{
     border: none;
     background: #fff;
     font-size: 15px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 10;
+    
 }
 
 #pwretry{
@@ -122,6 +126,7 @@ body{
 #logo {
 	width: 300px;
 	height: auto;
+	margin-top:5px;
 }
 .master{
 	text-align: center;
@@ -202,6 +207,7 @@ body{
 	font-weight: bold;
 	text-align: left;
 	margin-left:10px;
+	margin-top:50px;
 }
 
 .idbox{

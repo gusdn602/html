@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<link rel="stylesheet" href="../css/w3.css"/>
+<style>
+
+</style>
+</head>
+<body>
+	<body>
+	<div class = "w3-col m3"><p></p></div>
+	<div class = "w3-col m6">
+		<h2 class="w3-orange w3-padding w3-card w3-center">
+			Parameter Test01
+		</h2>
+		<form method="get" action="Text04_01.html" id="frm" class="w3-col w3-card w3-padding mt10">
+			<div class="w3-col">
+				<label class="w3-col m3 rightalign" for="id" id="idlabel"> I  D :</label>
+				<input class="w3-col m7 w3-input w3-border ml10" type="text" id="id" name="id">
+			</div>
+			<div class="w3-col mt10">
+				<label class="w3-col m3 rightalign" for="pw"> P  W :</label>
+				<input class="w3-col m7 w3-input w3-border ml10" type="password" id="pw" name="pw">
+			</div>
+		<div class="w3-col mt10">
+			<span class="w3-col w3button w3-blue w3-hover-blue w3-center" id="btn">Login</span>
+		</div>
+	</form>
+</div>
+</body>
+<script type="text/javascript">
+	document.getElementById('btn').onclick = function(){ 
+		var str = this.innerHTML;
+		var sClass = this.getAttribute('class');
+		//클래스 수동추가
+		/* this.setAttribute('class', sClass + 'w3-card-4'); */
+		
+		this.classList.remove('w3-blue');
+		this.classList.remove('w3-hover-blue');
+		this.classList.remove('w3-purple');
+		this.classList.remove('w3-hover-pink');
+		//클래스 토글 추가
+		/*this.classList.toggle('w3-card-4');
+		this.classList.toggle('w3-hover-blue');*/
+		//alert(sClass);
+		
+		var text = document.getElementById('idlabel').innerHTML;
+		alert(text);
+		var sid = document.getElementById('id').value;		
+		var spw = document.getElementById('pw').value;		
+		if(!sid || !spw){									
+			alert('데이터 입력이 안됬습니다.');
+			return
+		}
+		document.getElementById('frm').submit();			
+	}
+</script>
+</html>
